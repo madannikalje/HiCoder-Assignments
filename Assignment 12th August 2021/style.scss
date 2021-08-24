@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+html {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    overflow-x: hidden;
+    
+}
+
+body{
+    background: url("./wallpaperbetter.com_1920x1080.jpg");
+    
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    
+    
+}
+
+@mixin block{
+    height: auto;
+    width: 55rem;
+    padding: 1.4rem;
+    margin-top: 3rem;
+    border-radius: .5rem;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    p{
+        color: rgb(238, 237, 237);
+        word-spacing: .2rem;
+    }
+    
+
+    span{
+        font-size: 1.3rem;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.container{
+    height:100vh;
+    width:99vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+    
+    .block{
+        @include block;       
+    }
+    
+}

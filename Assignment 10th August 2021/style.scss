@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+
+body{
+    
+background:url("./city_architecture_buildings_175817_1920x1080.jpg");
+font-family: 'Nunito', sans-serif;
+overflow:hidden;
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+}
+
+
+
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+
+    .login-form{
+        margin-top: 6em;
+        margin: 10rem;
+        height:33em;
+        width: 30em;
+        background: rgba( 255, 255, 255, 0.001 );
+        box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.16);
+        -webkit-box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.26);       
+        backdrop-filter: blur( 2.5px );
+        -webkit-backdrop-filter: blur( 2.5px );
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+
+        .login-heading{
+            font-size:1.8rem;
+            color: rgb(160, 160, 160);
+            margin-top: 50px;
+            text-align: center;
+            
+        }
+        
+        .login-form-inputs{
+            padding-top: 3em;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            input{
+                width:70%;
+               
+                
+                
+                padding:.7rem;
+                background: none;
+                
+                background: rgba( 255, 255, 255, 0.05 );
+                box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.22);
+                backdrop-filter: blur( 0.0px );
+                -webkit-backdrop-filter: blur( 0.0px );
+                border-radius: 6px;
+                border: .0009em solid rgba(0, 0, 0, 0.18);
+              
+
+            }
+
+            #password{
+                box-shadow: 0 8px 32px 0 rgba(31, 30, 30, 0.22);
+                margin-top: 3.5rem;
+            }
+
+            .forgotten-password{
+                padding-top:1em;
+                padding-right: 13.5em;
+                color: rgb(7, 11, 12);
+            }
+
+            button{
+                $side-padding:3em;
+                $top-padding:.7em;
+                margin-top: 4em;
+                background: none;
+                border: 1px solid rgb(180, 175, 175);
+                border-radius: .5rem;
+                padding-left:$side-padding ;
+                padding-right: $side-padding;
+                padding-top: $top-padding;
+                padding-bottom: $top-padding;
+                box-shadow: 0 8px 32px 0 rgba(48, 48, 48, 0.37);
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    font-family: Roboto, Arial,  sans-serif;
+    color:rgb(201, 194, 194);
+}
+
+.nav-bar{
+    background: #1c1b1a;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-flex;
+    align-items: center;
+    justify-content: space-between;     
+    position: fixed;
+}
+
+.nav-bar-left{
+    display: flex;
+    flex-direction: row-flex;
+    align-items: center;
+    
+}
+
+.nav-bar-right.yt-icon{
+    padding: left 100px;
+
+}
+
+.yt-logo-font{
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.nav-bar-mid{
+    display: flex;
+    flex-direction: row-flex;
+    align-items: center;
+    position: relative;
+    right: 12px;
+}
+
+.search-bar{
+    width: 566px;
+    height: 28px;
+    border: 1px solid rgb(39, 38, 38);
+    right: 905px;
+    background-color: black;
+    border-radius: 4px 0px 0px 4px;
+    
+}
+
+#icons{
+    color: white;
+}
+
+.search-button{
+
+    align-items: center;
+    height: 32px;
+    width:65px;
+    background:rgb(71, 66, 66);
+
+}
+
+.nav-bar-right{
+    display: flex;
+    flex-direction: row-flex;
+    align-items: center;
+    padding-right: 30px;
+    
+}
+/* navbar css end */
+
+.core-part{
+ 
+    
+    height: 1900px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    background:rgb(37, 36, 36);
+    
+}
+
+.video-part{
+    margin-top: 51px;
+    margin-left: 70px;
+    margin-right: 10px;
+    width: 1100em;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.video-sec{
+    margin-top: 20px;
+    justify-content: center;
+    height: 550px;
+    width: auto; 
+    background:black;
+}
+
+
+
+.video-sec img{
+    
+    height: 550px;
+    padding-left: 40px;
+
+}
+
+/*Video info*/
+
+.video-info{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.video-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.video-title .video-title-name{
+    padding-top: 20px;
+    
+}
+
+.video-title .video-title-info{
+    padding-top: 10px;
+    font-size: 15px;
+    color:rgb(126, 126, 126);
+}
+
+.video-ratings{
+    padding-top: 32px;
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.video-ratings .video-rating-items{
+    padding: 7px;
+}
+
+
+/* Channel Info*/
+
+.channel-info{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 80px;
+    width: auto;
+    
+}
+
+.channel-info .channel-info-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.channel-info .channel-info-info .channel-info-name{
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+    padding-left: 6px;
+}
+
+.channel-info button{
+    height:35px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color:white;
+    background: red;
+    border: none;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* Comment-section */
+
+.comment-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-section .comment-section-head{
+    display: flex;
+    flex-direction: column;
+    height:90px;
+    width:auto;
+    
+}
+
+.comment-section .comment-section-head #comment-head{
+    padding-top: 8px;
+    display: flex;
+    flex-direction:row;
+    font-weight: bold;
+}
+
+.comment-section .comment-section-head .comment-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-section .comment-section-head .comment-input input{
+    width:750px;
+    height:20px;
+    margin-top: 10px;
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+}
+
+.comments{
+    height:auto ;
+    width:100%;
+ 
+    display: flex;
+    flex-direction: column; 
+}
+
+.comment{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    
+
+}
+
+.comment #comment-user-icon{
+
+}
+
+.comment .comment-user-info{
+    display:flex;
+    flex-direction: column;
+    padding-top:10px;
+    padding-left: 5px;
+}
+
+.comment-rating{
+    display:flex;
+    flex-direction: row;
+    padding-top:10px;
+}
+
+/* end of comment and video part*/
+
+
+.rec-part{
+    height: auto;
+    width: 350rem;
+    
+    display:flex;
+    flex-direction: column;
+}
+
+.videos{
+    display: flex;
+    flex-direction: column;
+    
+    
+    margin-top: 70px;
+}
+
+.video{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width:330px; 
+    padding-top: 15px;
+    margin-left: 10px;   
+}
+
+.rec-part .videos .video img{
+    height: 100px;   
+}
+
+.video-info-right{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+  
+  
+}
+
+.video-text-right{
+    display:flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

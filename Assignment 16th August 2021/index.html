@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marks</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-form" style="height:50rem;">
+            <h1 class="login-heading">GET PERCENTAGE</h1>
+            <div class="login-form-inputs">
+
+                <input type="text" placeholder="Maths" id="Maths" style="margin-top: 2rem;">
+                <input type="text" placeholder="Science" id="Science" style="margin-top: 2rem;">
+                <input type="text" placeholder="English" id="English" style="margin-top: 2rem;">
+                <input type="text" placeholder="History" id="History" style="margin-top: 2rem;">
+                <input type="text" placeholder="Geography" id="Geography" style="margin-top: 2rem;">
+                <input type="text" placeholder="P.E" id="P.E" style="margin-top: 2rem;">
+
+
+                <button id="SUBMIT">SUBMIT</button>
+                <div>
+                    <p id="ans"></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        let elm = document.getElementById("SUBMIT");
+        elm.addEventListener("click", () => {
+            let elem = document.getElementById("ans");
+            let subs = ["Maths", "Science", "English", "History", "Geography", "P.E"];
+            var ans;
+            var sum = 0;
+            subs.forEach((a) => {
+                let e = document.getElementById(a);
+                sum = sum + parseInt(e.value);
+            })
+            elem.innerHTML = (sum / subs.length) + "%";
+        })
+    </script>
+</body>
+
+</html>

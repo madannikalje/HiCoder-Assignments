@@ -1,0 +1,26 @@
+body{
+    background-image: url("/Fresh Turboscent.jpg");
+
+}
+.table-css{
+    align-items: center;
+}
+
+table,td{
+    padding: 40px;
+    font-size: 20px;
+    color: #334257;
+}
+
+.input-text{
+    padding-top: 20px;
+
+    border-radius: 10px;
+    opacity: 10%;
+}
+
+.calc{
+    
+
+    
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+body {
+  background: url("./wallpaperbetter.com_1920x1080.jpg");
+  font-family: 'Nunito', sans-serif;
+  overflow: hidden;
+}
+
+body ::-webkit-input-placeholder {
+  color: #ebebeb;
+}
+
+body :-ms-input-placeholder {
+  color: #ebebeb;
+}
+
+body ::-ms-input-placeholder {
+  color: #ebebeb;
+}
+
+body ::placeholder {
+  color: #ebebeb;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .login-form {
+  margin-top: 6em;
+  margin: 10rem;
+  height: 33em;
+  width: 30em;
+  background: rgba(255, 255, 255, 0.001);
+  box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.container .login-form .login-heading {
+  font-size: 1.8rem;
+  color: #a0a0a0;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.container .login-form .login-form-inputs {
+  padding-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .login-form .login-form-inputs input {
+  width: 70%;
+  color: white;
+  font-size: 1rem;
+  padding: .7rem;
+  background: none;
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.22);
+          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 6px;
+  border: 0.0009em solid rgba(255, 255, 255, 0.18);
+}
+
+.container .login-form .login-form-inputs input:focus {
+  outline: none !important;
+}
+
+.container .login-form .login-form-inputs #password {
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 30, 30, 0.22);
+          box-shadow: 0 8px 32px 0 rgba(31, 30, 30, 0.22);
+  margin-top: 3.5rem;
+}
+
+.container .login-form .login-form-inputs .forgotten-password {
+  padding-top: 1em;
+  padding-right: 13.5em;
+  color: #070b0c;
+}
+
+.container .login-form .login-form-inputs button {
+  margin-top: 4em;
+  background: none;
+  border: 1px solid #b4afaf;
+  border-radius: .5rem;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  -webkit-box-shadow: 0 8px 32px 0 rgba(48, 48, 48, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(48, 48, 48, 0.37);
+  color: white;
+}
+
+.container .login-form .login-form-inputs #ans {
+  padding-top: .3rem;
+  color: white;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

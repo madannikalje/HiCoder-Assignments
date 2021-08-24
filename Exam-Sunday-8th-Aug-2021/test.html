@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .class1 {
+        height: 50px;
+        width: 50vw;
+        background: red;
+        padding: 10px;
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .container {
+        border: 2px solid black;
+        width: 1000px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .class2 {
+        height: 50px;
+        width: 1rem;
+        background: red;
+        padding: 10px;
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+</style>
+
+<body onresize="myFunction()">
+    <div class="class1">
+        <span>50%</span>
+
+    </div>
+
+
+    <div class="container">
+        <div class="class2"> <span id="t"> 50%</span> </div>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        let elem = document.getElementById("t");
+        elem.innerHTML = window.innerWidth;
+    }
+</script>
+
+
+</html>

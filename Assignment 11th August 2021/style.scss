@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+html {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+body{
+    background: url('./1414035.jpg');
+    background-repeat: no-repeat;
+  
+
+}
+
+@mixin block{
+    height: auto;
+    width: 55rem;
+    padding: 1.4rem;
+    margin-top: 4rem;
+    border-radius: .5rem;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    
+
+   
+    p{
+        color: rgb(48, 47, 47);
+        word-spacing: .2rem;
+    }
+    
+
+    span{
+        font-size: 1.3rem;
+        color: rgb(41, 39, 39);
+    }
+}
+
+.container{
+    height:90vh;
+    width:99vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+        
+
+    .block-partials{
+        @include block;
+        
+        
+    }
+    .block-mixin{
+        @include block;
+        box-shadow: 0 8px 32px 0 rgba(241, 241, 241, 0.1);
+        p{
+            color: rgb(199, 196, 196);
+            word-spacing: .2rem;
+        }
+        
+    
+        span{
+            font-size: 1.3rem;
+            color: rgb(236, 236, 236);
+        }
+    }
+    .block-extend{
+        @include block;
+        box-shadow: 0 8px 32px 0 rgba(241, 241, 241, 0.01);
+
+        p{
+            color: rgb(168, 161, 161);
+            word-spacing: .2rem;
+        }
+        
+    
+        span{
+            font-size: 1.3rem;
+            color: rgb(228, 224, 224);
+        }
+    }
+}

@@ -1,0 +1,73 @@
+body {
+  background: url("./wallpapertip_wallpaper-minimalism_810818.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #534d4d;
+  padding-top: 4rem;
+}
+
+.root .skill {
+  margin-top: 3rem;
+  background: rgba(160, 33, 33, 0.05);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.199);
+          box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.199);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 3.5rem;
+  width: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  background-size: 1;
+  background: -webkit-gradient(linear, left top, right top, color-stop(80%, rgba(146, 117, 170, 0.486)), color-stop(20%, rgba(160, 33, 33, 0.05)));
+  background: linear-gradient(90deg, rgba(146, 117, 170, 0.486) 80%, rgba(160, 33, 33, 0.05) 20%);
+}
+
+.root .skill p {
+  padding-left: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.4rem;
+  color: #fdfdfd;
+  margin-top: 1rem;
+}
+
+.root .skill img {
+  height: 2rem;
+  padding-top: .8rem;
+  padding-left: 1rem;
+}
+
+.skill:hover {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+/*# sourceMappingURL=style.css.map */

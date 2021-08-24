@@ -1,0 +1,42 @@
+.a1 {
+  padding: 200px;
+}
+body {
+  align-items: right;
+  font-family: 'Open Sans', sans-serif;
+
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.exm1{
+    width: 700px;
+    align-items: center;
+    padding: 25px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 2px;
+
+}
+
+.inputs{
+    padding-bottom: 10px;
+
+}
+
+th,
+td {
+  text-align: center;
+  padding: 20px;
+  text-shadow: 100%;
+}
+input{
+    size: 1px;
+}
