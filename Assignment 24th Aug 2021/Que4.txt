@@ -1,0 +1,10 @@
+1) When a resource is shared among multiple consumers. Examples include CPU scheduling, Disk Scheduling. 
+2) When data is transferred asynchronously (data not necessarily received at same rate as sent) between two processes. Examples include IO Buffers, pipes, file IO, etc. 
+3) In Operating systems:
+       a) Semaphores
+       b) FCFS ( first come first serve) scheduling, example: FIFO queue
+       c) Spooling in printers
+       d) Buffer for devices like keyboard
+4) In Networks:
+       a) Queues in routers/ switches 
+       b) Mail Queues

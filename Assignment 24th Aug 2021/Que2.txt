@@ -1,0 +1,2 @@
+1. Stacks can be used for expression evaluation.
+2. Stacks can be used for Memory Management.
