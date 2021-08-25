@@ -1,0 +1,115 @@
+body{
+    background: #e96443;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.root{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+    .elements{
+        height: auto;
+        width: 25rem;
+        background: rgba( 255, 255, 255, 0.05 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4.5px );
+        -webkit-backdrop-filter: blur( 4.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding:2rem;
+        margin-left: 15rem;
+        .element{
+            margin-left: 1rem;
+            margin-top: 1rem;
+            height:5em;
+            width:5em;
+            background: rgba(100, 87, 87, 0.25);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 3px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            transition:2s;
+            p{
+                text-align: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        height:5rem;
+        width:15rem;
+        align-items: center;
+        justify-content: space-around;
+        button{
+            background: rgba(100, 87, 87, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(126, 126, 126, 0.24);
+            backdrop-filter: blur( 4.5px );
+            -webkit-backdrop-filter: blur( 4.5px );
+            border-radius: 3px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            height: 2.5rem;
+            width: 6rem;
+            transition:1s;
+        }
+        button:hover {
+            box-shadow: 0 8px 32px 0 rgba(211, 211, 211, 0.589);
+        }
+        button:focus {
+            border: 1px solid rgba(238, 235, 235, 0.945);
+        }
+
+    }
+
+    .stack{
+        height:auto;
+        width:20rem;
+        background: rgba( 255, 255, 255, 0.05 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4.5px );
+        -webkit-backdrop-filter: blur( 4.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 15rem;
+        p{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1.5rem;
+        }
+        .stack-elements{
+            text-align: center;
+            
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+            align-items: center;
+            .stack-element{
+                margin-top: .1rem;
+                margin-bottom: 1rem;
+                height:4rem;
+                width:17rem;
+                background: rgba(100, 87, 87, 0.25);
+                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                backdrop-filter: blur( 4.5px );
+                -webkit-backdrop-filter: blur( 4.5px );
+                border-radius: 3px;
+                border: 1px solid rgba( 255, 255, 255, 0.18 );
+     
+            }
+        }
+    }
+}
