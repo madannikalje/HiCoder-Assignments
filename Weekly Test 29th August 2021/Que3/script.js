@@ -1,4 +1,3 @@
-
 let arr = [];
 var queueParentDiv = document.getElementsByClassName('queue-elements')[0];
 let i = document.getElementsByTagName("input")[0];
@@ -9,7 +8,6 @@ i.addEventListener("keypress",(a) => {
         i.style.boxShadow = "";
     },300)
 })
-
 document.addEventListener("click", (e) => {
     if(e.target.id == "push-btn"){
         if(arr.length == 6){
@@ -47,3 +45,11 @@ let createElementDiv = (element) => {
     childDiv.appendChild(p)
     return childDiv;
 }
+
+/* 
+    
+    <div class="queue-element"> 
+        <p>  1  </p>
+    </div>
+
+*/
