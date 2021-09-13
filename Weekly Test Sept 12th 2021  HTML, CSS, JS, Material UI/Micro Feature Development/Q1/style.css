@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://img4.goodfon.com/original/1920x1080/1/7d/les-doroga-vid-sverkhu-gavle-sweden.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  overflow: hidden;
+}
+
+.box {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  height: 6rem;
+  width: 19rem;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.box .circle {
+  background-color: #cbd9da;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50px;
+  margin-left: .6rem;
+  text-align: center;
+}
+
+.box .circle p {
+  margin-top: .6rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box .left-box {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 1rem;
+}
+
+.box .left-box h4 {
+  font-size: .78rem;
+  margin-bottom: 1.5rem;
+}
+
+.box .left-box h3 {
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
